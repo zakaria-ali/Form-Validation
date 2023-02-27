@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.myForm {
+    background-color: white;
+    padding: 15px;
+    width: 325px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 5px auto;
+    gap: 5px;
+}
+.myForm input {
+    border: 1px solid #ccc;
+    height: 30px;
+    width: 290px;
+}
+label {
+    color: #006bc1;
+}
+button {
+    background: #18a941;
+	color: #fff;
+    font-size: 18px;
+    padding: 8px;
+    margin-top: 10px;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}
+button:hover {
+    background: #18a941b6;
+}
+p {
+    color: red;
+    font-size: small;
+    margin: 2px;
+}
